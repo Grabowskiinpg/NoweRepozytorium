@@ -1,0 +1,21 @@
+options:
+
+	czas: 5 # w minutach
+
+	ilosc_znakow: 10
+
+every {@czas} minutes:
+	loop {@ilosc_znakow} times:
+		set {_znak.%loop-number%} to a random integer between 1 and 9
+		chance of 50%:
+			set {_znak.%loop-number%} to "a" or "A" #... wzor
+	set {_kod} to "%{_znak.*}%"
+	set {przepisz} to true
+	broadcast "blabla"
+on chat:
+	if {przepisz} is true:
+		message is "%{_kod}%":
+			cancel event
+			add 5000 to account of player
+			set {przepisz} to false
+			send "%player% wygral przepisujac kod" to all players
