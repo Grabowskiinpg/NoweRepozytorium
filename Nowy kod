@@ -1,0 +1,9 @@
+<?php
+function str_rand( $length=32 ) {
+	$l = ($length > 32) ? 32 : $length;
+	$str = md5(rand(0,mktime()));
+	$c = 32 - $length;
+	$s = rand(0, $c);
+	return substr($str, $s, $l);
+}
+?>
