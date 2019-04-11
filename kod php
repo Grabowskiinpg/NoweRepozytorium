@@ -1,0 +1,15 @@
+<?php
+ 
+function gen_string($long = 8){
+    $arr[0] = range(0, 9);
+    $arr[1] = range('a', 'z');
+    $array = array_merge($arr[0], $arr[1]);
+    shuffle($array);
+	$string = '';
+    for ($i = 0; $i < $long; $i++){
+        $string .= $array[$i];
+    }
+    return $string;
+}
+ 
+?>
