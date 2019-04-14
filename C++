@@ -1,4 +1,4 @@
-#ifndef nazwaPliku_hpp
+#ifndef nazwaPliku_hpp         //Zmiana w nowo utworzonej ga³êzi
 #define nazwaPliku_hpp
 #include <iostream>
 //definicja struktur ---------

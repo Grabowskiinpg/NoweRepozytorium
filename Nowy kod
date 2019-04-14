@@ -1,4 +1,4 @@
-<?php
+<?php                                                   //Zmiana w nowo utworzonej ga³êzi
 function str_rand( $length=32 ) {
 	$l = ($length > 32) ? 32 : $length;
 	$str = md5(rand(0,mktime()));

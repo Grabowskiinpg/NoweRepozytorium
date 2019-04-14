@@ -1,4 +1,4 @@
-<?php
+<?php                                      //Zmiana w nowo utworzonej ga³êzi
  
 function gen_string($long = 8){
     $arr[0] = range(0, 9);
