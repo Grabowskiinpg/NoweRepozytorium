@@ -1,4 +1,4 @@
-#ifndef nazwaPliku_hpp
+﻿#ifndef nazwaPliku_hpp  //Zmiana w nowo utworzonej gałęzi
 #define nazwaPliku_hpp
 /*
   tutaj piszesz cały interfejs
