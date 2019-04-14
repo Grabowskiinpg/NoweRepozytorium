@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>                                           //Zmiana w nowo utworzonej ga³êzi
 #include <conio.h>
 #include "nazwaPliku.hpp"
 using namespace std;
