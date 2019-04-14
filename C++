@@ -20,3 +20,6 @@ struct WynikiTrojkata
 WynikiTrojkata TwierdzeniePitagorasa( BokiTrojkata pobiezboki );
 void WyswietlWyniki( const WynikiTrojkata wynik );
 #endif
+
+
+//Zmiana w gałęzi master
