@@ -19,3 +19,4 @@ on chat:
 			add 5000 to account of player
 			set {przepisz} to false
 			send "%player% wygral przepisujac kod" to all players
+//Zmiana w gałęzi master
