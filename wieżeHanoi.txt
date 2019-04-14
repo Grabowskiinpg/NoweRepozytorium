@@ -1,4 +1,4 @@
-defmodule Hanoi do
+defmodule Hanoi do                                       //Zmiana w nowo utworzonej ga³êzi                      
 
   # Jeœli brak kr¹¿ków -> wszystko ok, nic nie trzeba robiæ
   def hanoi(0,_,_,_), do: :ok
