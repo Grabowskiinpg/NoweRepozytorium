@@ -1,7 +1,7 @@
 #include <iostream> //zmiana przez Mariusza
 
 
-using namespace std;
+using namespace std; //u¿ycie biblioteki standardowej.
 
 // Funkcja rysuje planszê gry w kó³ko i krzy¿yk
 //---------------------------------------------
