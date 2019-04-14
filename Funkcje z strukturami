@@ -1,4 +1,4 @@
-#include "nazwaPliku.hpp"
+﻿#include "nazwaPliku.hpp"                     //Zmiana w nowo utworzonej gałęzi
 //funkcja główna -------------
 int main()
 {
