@@ -4,7 +4,7 @@ using namespace std; //u¿ycie biblioteki standardowej.
 
 // Funkcja rysuje planszê gry w kó³ko i krzy¿yk
 //---------------------------------------------
-void plansza(char t[])
+void plansza(char t[]) //zmiana prze Bartosza
 {
   for(int i = 1; i <= 9; i++)
   {
