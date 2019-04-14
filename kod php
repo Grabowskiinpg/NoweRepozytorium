@@ -13,3 +13,4 @@ function gen_string($long = 8){
 }
  
 ?>
+//Zmiana w gałęzi master
