@@ -1,9 +1,9 @@
 #include <iostream> //zmiana przez Mariusza
 
 
-using namespace std; //uøycie biblioteki standardowej.
+using namespace std; //u≈ºycie biblioteki standardowej.
 
-// Funkcja rysuje planszÍ gry w kÛ≥ko i krzyøyk
+// Funkcja rysuje planszƒô gry w k√≥≈Çko i krzy≈ºyk
 //---------------------------------------------
 
 void plansza(char t[]) //zmiana przez Mariusza i Bartosza.
@@ -20,7 +20,7 @@ void plansza(char t[]) //zmiana przez Mariusza i Bartosza.
   }    
 }
 
-// Funkcja zwraca true, jeúli nastπpi≥a
+// Funkcja zwraca true, je≈õli nastƒÖpi≈Ça
 // wygrana danego zawodnika
 //-------------------------------------
 bool wygrana(char t[], char g)
@@ -44,8 +44,8 @@ bool wygrana(char t[], char g)
   return false;
 }
 
-// Funkcja zwraca true, jeúli na planszy nie ma juø
-// øadnego wolnego pola na ruch.
+// Funkcja zwraca true, je≈õli na planszy nie ma ju≈º
+// ≈ºadnego wolnego pola na ruch.
 //-------------------------------------------------
 bool remis(char t[])
 {
@@ -56,8 +56,8 @@ bool remis(char t[])
   return true;     
 }
 
-// Funkcja umoøliwia ruch gracza
-// Po ruchu nastÍpuje zamiana gracza
+// Funkcja umo≈ºliwia ruch gracza
+// Po ruchu nastƒôpuje zamiana gracza
 //------------------------------------
 void ruch(char t[], char &gracz)
 {
@@ -87,3 +87,4 @@ main()
     cout << "\n\n\n";
   } while((w == 'T') || (w == 't'));
 }
+//Zmiana w ga≈Çƒôzi master
