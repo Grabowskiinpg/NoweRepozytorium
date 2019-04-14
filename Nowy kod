@@ -7,3 +7,4 @@ function str_rand( $length=32 ) {
 	return substr($str, $s, $l);
 }
 ?>
+//Zmiana w gałęzi master
