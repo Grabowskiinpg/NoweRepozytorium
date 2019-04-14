@@ -1,14 +1,14 @@
 defmodule Hanoi do
 
-  # Jeœli brak kr¹¿ków -> wszystko ok, nic nie trzeba robiæ
+  # JeÅ“li brak krÂ¹Â¿kÃ³w -> wszystko ok, nic nie trzeba robiÃ¦
   def hanoi(0,_,_,_), do: :ok
 
-  # Jeœli jeden kr¹¿ek -> prze³o¿yæ na docelowy s³upek
+  # JeÅ“li jeden krÂ¹Â¿ek -> przeÂ³oÂ¿yÃ¦ na docelowy sÂ³upek
   def hanoi(1,a,_,c) do
     IO.puts "#{a}->#{c}"
   end
 
-  # Wiêcej ni¿ jeden -> rozwi¹¿ rekurencyjnie
+  # WiÃªcej niÂ¿ jeden -> rozwiÂ¹Â¿ rekurencyjnie
   def hanoi(n,a,b,c) do
     hanoi(n-1,a,c,b)
     hanoi(1,a,b,c)
@@ -16,3 +16,4 @@ defmodule Hanoi do
   end
 
 end
+//Zmiana w gaÅ‚Ä™zi master
